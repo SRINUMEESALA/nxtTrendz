@@ -1,0 +1,96 @@
+.loginParentCon {
+  font-family: Bree serif;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.loginImg {
+  height: 100%;
+  width: 100%;
+}
+.formImg {
+  height: 50px;
+}
+.form {
+  width: 70%;
+  background-color: rgba(256, 256, 256);
+  transition: all 0.5s ease-out;
+}
+.input {
+  background-color: white;
+  outline: none;
+  border-style: none;
+}
+@media (max-width: 756px) {
+  .formCon {
+    margin-top: 20px;
+  }
+  .formImg {
+    height: 50px;
+    width: 80%;
+  }
+}
+
+.loginImgCon {
+  position: static;
+}
+.driveButton {
+  width: 150px;
+}
+.arrowCon {
+  flex-grow: 1;
+}
+.arrowIcon {
+  animation: moveArrow ease-in 3s infinite;
+}
+@keyframes moveArrow {
+  to {
+    transform: translateX(40px);
+  }
+}
+
+.driveText {
+  animation: driveText ease-in 3s infinite;
+}
+@keyframes driveText {
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.animatedDiv {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  position: absolute;
+  background-color: #2be3c6;
+
+  animation: animatedDiv;
+  animation-duration: 1s;
+  /* animation-direction: forwards; */
+  animation-iteration-count: 1;
+  /* animation-delay: 0.2s; */
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animatedDiv {
+  0% {
+    top: 0px;
+    right: 0px;
+  }
+  /* 50% {
+    top: 25%;
+    right: 14.5%;
+    transform: scale(3);
+  } */
+  100% {
+    top: 50%;
+    right: 29%;
+    transform: scale(55);
+  }
+}
+
+.form:hover {
+  transform: scale(1.04);
+}

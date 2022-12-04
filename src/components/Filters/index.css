@@ -1,0 +1,16 @@
+.starsRating {
+  height: 20px;
+}
+.sortOptions:hover {
+  cursor: pointer;
+  background-color: cyan;
+}
+.rating:hover {
+  cursor: pointer;
+}
+.openClose {
+  cursor: pointer;
+}
+.filterSection {
+  background-color: #f4faff;
+}

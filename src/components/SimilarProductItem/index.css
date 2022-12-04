@@ -1,0 +1,45 @@
+.productImg {
+  height: 100%;
+  width: 100%;
+}
+.rupessSpan {
+  font-size: 12px;
+}
+.title {
+  width: 80%;
+}
+
+.ratingButton {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 2px;
+}
+.price {
+  font-size: 20px;
+}
+.titleCon {
+  width: 65%;
+}
+.priceCon {
+  width: 35%;
+}
+.detailsCon {
+  flex-grow: 1;
+}
+@media (min-width: 757px) {
+  .liitem {
+    height: 60vh;
+  }
+}
+@media (max-width: 756px) {
+  .liitem {
+    height: 50vh;
+  }
+}
+.linkComp:hover {
+  text-decoration: none;
+}
+.productItem {
+  width: 30vh;
+  height: 40vh;
+}

@@ -1,0 +1,40 @@
+.navBar {
+  width: 90%;
+}
+.logoInNav {
+  height: 45px;
+}
+.navItems {
+  width: 30%;
+}
+.linkRoute:hover {
+  text-decoration: none;
+}
+@media (max-width: 756px) {
+  .Cart,
+  .Products,
+  .home,
+  .logout {
+    display: none;
+  }
+  .iconF {
+    display: visible;
+  }
+  .navItems {
+    width: 50%;
+  }
+  .logoInNav {
+    height: 30px;
+  }
+}
+@media (min-width: 757px) {
+  .iconF {
+    display: none;
+  }
+  .Cart,
+  .Products,
+  .home,
+  .logout {
+    display: visible;
+  }
+}

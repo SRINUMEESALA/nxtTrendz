@@ -1,0 +1,17 @@
+.allProductsCon {
+  width: 90%;
+  font-family: Bree serif;
+}
+.itemsCon {
+  width: 90%;
+}
+.productsHeading {
+  font-size: 30px;
+  color: #334155;
+}
+.itemsCon::-webkit-scrollbar {
+  display: none;
+}
+.productsParentCon::-webkit-scrollbar {
+  display: none;
+}

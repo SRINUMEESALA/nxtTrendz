@@ -1,0 +1,22 @@
+.introCon {
+  flex-grow: 1;
+}
+.introChildCon {
+  width: 90%;
+}
+.homeImg {
+  height: 80vh;
+}
+
+@media (max-width: 756px) {
+  .homeImg {
+    width: 90vw;
+    height: 60vh;
+  }
+}
+.linkComponent {
+  text-decoration: none;
+}
+.linkComponent :hover {
+  text-decoration: none !important;
+}
